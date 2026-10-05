@@ -1,0 +1,10 @@
+MiniGPT learns to predict the next token in a sequence.
+Language models process text by converting characters and words into discrete token IDs.
+Token embeddings and positional embeddings transform discrete token IDs into continuous vectors.
+Self-attention enables every token in a context window to gather information from previous tokens.
+Causal masking ensures that predictions at position t only depend on tokens at positions up to t.
+Multi-head attention allows the model to attend to multiple syntactic and semantic patterns in parallel.
+Each Transformer block combines pre-layer normalization, multi-head self-attention, residual connections, and a GELU feed-forward network.
+During training, cross-entropy loss measures how well the predicted vocabulary logits match the actual next token ID.
+Backpropagation computes gradients through the language model head, Transformer blocks, and embeddings.
+AdamW updates the model parameters at each training step so the training loss steadily decreases over epochs.

@@ -1,0 +1,59 @@
+======================================================================
+MiniGPT Phase 11 — Autoregressive Text Generation Evaluation Report
+Seed: 42 | Max New Tokens: 16
+======================================================================
+
+Prompt: 'Tokenization'
+----------------------------------------------------------------------
+  [Greedy decoding]
+  -> Tokenizationoni
+ to excatec:j-VelMec
+  [Temperature = 0.8, top_k = 5]
+  -> Tokenizationon,EIind alLU<UNK>OMIcal the 
+  [Temperature = 1.0, top_k = 10]
+  -> Tokenizationon,A-k. enBs
+AM
+Aal the 
+
+Prompt: 'Self attention'
+----------------------------------------------------------------------
+  [Greedy decoding]
+  -> Self attentionaIaIoar<UNK>t -VelMecathm
+  [Temperature = 0.8, top_k = 5]
+  -> Self attentioner AgCkex to:IoPkEhsi the 
+  [Temperature = 1.0, top_k = 10]
+  -> Self attentionac
+TFenm the 
+E
+AyWhtil
+
+Prompt: 'Transformer'
+----------------------------------------------------------------------
+  [Greedy decoding]
+  -> Transformer-V Mecex the in-VelMecathm
+  [Temperature = 0.8, top_k = 5]
+  -> TransformeryInIecoeljEIctiIntiq
+  [Temperature = 1.0, top_k = 10]
+  -> Transformere -lCecar to:M
+Ati.htil
+
+Prompt: 'MiniGPT'
+----------------------------------------------------------------------
+  [Greedy decoding]
+  -> MiniGPT tj the araIoarorhatvming an token
+  [Temperature = 0.8, top_k = 5]
+  -> MiniGPT t,O:. q token
+L5-IbDecat
+  [Temperature = 1.0, top_k = 10]
+  -> MiniGPTo
+Eker qecLh:Ex5M. or
+
+Prompt: 'Machine learning'
+----------------------------------------------------------------------
+  [Greedy decoding]
+  -> Machine learninggC. tokenhhatvming an tokensi the inin
+  [Temperature = 0.8, top_k = 5]
+  -> Machine learningtiC.Lqor tokende-ombM. in
+  [Temperature = 1.0, top_k = 10]
+  -> Machine learningd -LAexro tokenGm
+BmEnarq
